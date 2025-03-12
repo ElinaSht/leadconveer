@@ -700,18 +700,6 @@
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.15.tgz#596a1747233694d50f6ad8a7869fcb6f56cf5841"
   integrity sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==
 
-"@types/lodash-es@^4.17.12":
-  version "4.17.12"
-  resolved "https://registry.yarnpkg.com/@types/lodash-es/-/lodash-es-4.17.12.tgz#65f6d1e5f80539aa7cfbfc962de5def0cf4f341b"
-  integrity sha512-0NgftHUcV4v34VhXm8QBSftKVXtbkBG3ViCjs6+eJ5a6y6Mi/jiFGPc1sC7QK+9BFhWrURE3EOggmWaSxL9OzQ==
-  dependencies:
-    "@types/lodash" "*"
-
-"@types/lodash@*":
-  version "4.17.13"
-  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.17.13.tgz#786e2d67cfd95e32862143abe7463a7f90c300eb"
-  integrity sha512-lfx+dftrEZcdBPczf9d0Qv0x+j/rfNCMuC6OcfXmO8gkfeNAY88PgKUbvG56whcN23gc27yenwF6oJZXGFpYxg==
-
 "@types/node@22.9.1":
   version "22.9.1"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-22.9.1.tgz#bdf91c36e0e7ecfb7257b2d75bf1b206b308ca71"
@@ -1087,11 +1075,6 @@
   dependencies:
     de-indent "^1.0.2"
     he "^1.2.0"
-
-"@vue/devtools-api@^6.6.4":
-  version "6.6.4"
-  resolved "https://registry.yarnpkg.com/@vue/devtools-api/-/devtools-api-6.6.4.tgz#cbe97fe0162b365edc1dba80e173f90492535343"
-  integrity sha512-sGhTPMuXqZ1rVOk32RylztWkfXTRhuS7vgAKv0zjqk8gbsHkJ7xfFf+jbySxt7tWObEJwyKaHMikV/WGDiQm8g==
 
 "@vue/devtools-core@^7.6.4":
   version "7.6.7"
@@ -2405,11 +2388,6 @@ locate-path@^6.0.0:
   dependencies:
     p-locate "^5.0.0"
 
-lodash-es@^4.17.21:
-  version "4.17.21"
-  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.21.tgz#43e626c46e6591b7750beb2b50117390c609e3ee"
-  integrity sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==
-
 lodash.memoize@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/lodash.memoize/-/lodash.memoize-4.1.2.tgz#bcc6c49a42a2840ed997f323eada5ecd182e0bfe"
@@ -3722,13 +3700,6 @@ vue-eslint-parser@^9.4.3:
     esquery "^1.4.0"
     lodash "^4.17.21"
     semver "^7.3.6"
-
-vue-router@4.4.5:
-  version "4.4.5"
-  resolved "https://registry.yarnpkg.com/vue-router/-/vue-router-4.4.5.tgz#bdf535e4cf32414ebdea6b4b403593efdb541388"
-  integrity sha512-4fKZygS8cH1yCyuabAXGUAsyi1b2/o/OKgu/RUb+znIYOxPRxdkytJEx+0wGcpBE1pX6vUgh5jwWOKRGvuA/7Q==
-  dependencies:
-    "@vue/devtools-api" "^6.6.4"
 
 vue-tsc@2.1.10:
   version "2.1.10"

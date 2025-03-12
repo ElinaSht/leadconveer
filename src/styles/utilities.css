@@ -1,4 +1,24 @@
 @layer utilities {
+    .text-h1 {
+        @apply font-montserrat text-[80px] font-bold leading-[80px];
+    }
+
+    .text-h2 {
+        @apply font-montserrat text-[48px] font-bold leading-[52px];
+    }
+
+    .text-h3 {
+        @apply text-[32px] leading-tight;
+    }
+
+    .gradient {
+        background: linear-gradient(90deg, #FF6600 0%, #F26659 27%, #F06177 37%, #E55D97 48%, #CA46D2 71%, #8D13F9 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+@layer utilities {
     .no-scrollbar {
         -ms-overflow-style: none;
         scrollbar-width: none;
