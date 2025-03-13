@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="flex items-center justify-between sw-full h-[82px] bg-dark-gray rounded-b-[40px] pl-[70px] pr-[30px]">
+  <div class="flex items-center justify-between h-[82px] bg-dark-gray rounded-b-[40px] pl-[70px] pr-[30px]">
     <img src="../assets/header/logo.svg" alt="LEADCONVEER"/>
 
     <div class="flex gap-[60px]">

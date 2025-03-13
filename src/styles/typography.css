@@ -2,10 +2,11 @@
 
 @layer base {
   body {
-    @apply font-inter text-[24px] text-dark-gray;
+    @apply font-inter text-[24px] text-dark-gray leading-[1.31];
   }
 
   * {
     @apply scroll-smooth;
   }
 }
+

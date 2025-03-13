@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import IconStar from '../assets/icons/star.svg'
+import IconStarGradient from '../assets/icons/star-gradient.svg'
 
 const cards = [
   {
@@ -31,7 +31,7 @@ const cards = [
             </div>
           </div>
 
-          <IconStar />
+          <IconStarGradient class="-rotate-[30deg]"/>
         </div>
 
         <LCButton label="КУПИТЬ" class="mt-[30px]"/>

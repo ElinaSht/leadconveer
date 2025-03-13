@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import IconStar from '../assets/icons/star.svg'
+import IconStarGradient from '../assets/icons/star-gradient.svg'
 
 const cards = [
   {
@@ -26,7 +26,7 @@ const cards = [
 </script>
 
 <template>
-  <div class="flex flex-col gap-[40px] max-w-[1780px] mx-auto">
+  <div class="flex flex-col gap-[40px] w-[1820px] px-[20px] mx-auto">
     <div class="text-h2 text-center">
       Завалим ваш отдел продаж<br><span class="text-h2 text-orange-juice">целевыми Лидами</span>
     </div>
@@ -36,7 +36,7 @@ const cards = [
         <div class="flex flex-col gap-[20px] w-[466px] ml-[40px] mt-[60px]">
           <div class="flex gap-[30px]">
             <div class="text-h3">{{ card.header }}</div>
-            <IconStar class="self-start gradient"/>
+            <IconStarGradient class="self-start"/>
           </div>
           <div class="text-grey">{{ card.text }}</div>
         </div>

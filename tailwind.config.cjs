@@ -14,6 +14,7 @@ module.exports = {
         'orange-juice-dark': '#CD3400',
         'blueberry': '#8A38D6',
         'disabled': '#3F3F3F',
+        'slider-default': '#DBDBDB',
       },
       fontFamily: {
         'inter': ['Inter', 'sans-serif'],

@@ -3,7 +3,7 @@ const advantages = ['Лидогенерация в b2b', 'Биржа лидов'
 </script>
 
 <template>
-  <div class="flex flex-col w-full px-[70px]">
+  <div class="flex flex-col w-[1780px] mx-auto px-[70px]">
 
     <div class="flex gap-[100px]">
       <div class="flex flex-col gap-[40px] w-[800px] my-[114px]">

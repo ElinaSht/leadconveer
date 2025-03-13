@@ -20,7 +20,7 @@ const clients = [
 </script>
 
 <template>
-  <div class="flex flex-col items-center w-[1780px] mx-auto">
+  <div class="flex flex-col items-center w-[1820px] px-[20px] mx-auto">
     <div class="text-h2 text-center">
       Клиенты, которые уже покупают<br /><span class="text-h2 text-orange-juice">Лидов для своего бизнеса</span>
     </div>

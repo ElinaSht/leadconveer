@@ -34,7 +34,7 @@ const cards = [
 </script>
 
 <template>
-  <div class="flex flex-col items-center w-[1780px] mx-auto">
+  <div class="flex flex-col items-center w-[1820px] px-[20px] mx-auto">
     <div class="text-h2 text-center">
       Стоимость технологий<br><span class="text-h2 text-orange-juice">«Лид Конвейер»</span>
     </div>
@@ -73,7 +73,7 @@ const cards = [
         </div>
 
         <div class="flex flex-col gap-[30px] max-w-[424px]">
-          <div class="text-grey leading-tight">{{ card.text }}</div>
+          <div class="text-grey">{{ card.text }}</div>
 
           <div class="flex flex-col gap-[20px]" >
             <div
@@ -83,7 +83,7 @@ const cards = [
               :class="card.dark && 'text-white'"
             >
               <IconCheck class="shrink-0" :class="card.dark && 'text-white'" />
-              <span class="leading-tight" :class="[card.dark && 'text-white', index === 1 && 'font-bold']">{{ option }}</span>
+              <span :class="[card.dark && 'text-white', index === 1 && 'font-bold']">{{ option }}</span>
             </div>
           </div>
         </div>

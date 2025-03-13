@@ -1,4 +1,7 @@
 <script setup lang="ts">
+import IconStarGradient from '../assets/icons/star-gradient.svg'
+import IconPlay from '../assets/icons/play.svg'
+
 const reviews = [
   {
     estimate: '5,0',
@@ -25,7 +28,7 @@ const reviews = [
 </script>
 
 <template>
-  <div class="flex flex-col items-center w-[1780px] mx-auto">
+  <div class="flex flex-col items-center w-[1820px] px-[20px] mx-auto">
     <div class="text-h2 text-center">
       Отзывы клиентов
     </div>
@@ -36,15 +39,27 @@ const reviews = [
 
     <div class="flex justify-between w-full">
       <div v-for="review in reviews" :key="review.text" class="flex flex-col gap-[20px] w-[430px] rounded-[30px] bg-light-gray p-[40px]">
-        <div>
+        <div class="flex gap-[26px] items-center">
           <span>{{ review.estimate }}</span>
+          <div class="flex gap-[6px]">
+            <IconStarGradient v-for="i in 5" :key="i" class="-rotate-[15deg]"/>
+          </div>
         </div>
 
         <div class="flex flex-col gap-[20px]">
           <span>{{ review.text }}</span>
-          <span>{{ review.area }}</span>
+          <span class="text-grey max-w-[316px]">{{ review.area }}</span>
         </div>
 
+      </div>
+    </div>
+
+    <div class="flex justify-between w-full mt-[40px]">
+      <div v-for="i in 3" :key="i" class="flex flex-col gap-[12px]">
+        <div class="flex items-center justify-center bg-dark-gray w-[580px] h-[320px] rounded-[40px]">
+          <IconPlay />
+        </div>
+        <div>Отзыв {{ i }}: название</div>
       </div>
     </div>
   </div>
